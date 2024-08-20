@@ -252,7 +252,7 @@ public class budgettracker extends JFrame {
     private void initDatabaseConnection() {
         try {
             // Replace the URL, username, and password with your MySQL configurations
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/budgettracker", "root", "18052005");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/budgettracker", /*"username"*/, /*"password"*/);
         } catch (SQLException e) {
             e.printStackTrace();
             JOptionPane.showMessageDialog(this, "Database connection failed!", "Error", JOptionPane.ERROR_MESSAGE);
