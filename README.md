@@ -2,7 +2,7 @@
 
 Budget Tracker is a comprehensive Java desktop application designed to help you efficiently manage your finances. Whether you're tracking daily expenses or monitoring your income, this tool provides a user-friendly interface and essential features to keep your budget in check.
 
-## 📸 Application Screenshot
+## 📸 Application Screenshot<br>
 
 Here’s a screenshot of the application in action:
 
@@ -12,37 +12,39 @@ Here’s a screenshot of the application in action:
 
 The screenshot above shows the main interface of the application, including the key features and layout. 
 
-## 🚀 Features
-
+## 🚀 Features<br>
 - 📅 **Transaction Management**: Easily add, edit, and view your income and expenses.
 - 💸 **Automatic Balance Calculation**: Keep track of your financial status with real-time balance updates.
 - 📊 **Detailed Reporting**: View your transactions in a tabular format with detailed information.
 - 🔧 **Category Management**: Add and edit expense categories to fit your needs.
 - 💾 **Data Storage**: Transactions are saved in a MySQL database for persistent storage.
 
-## 💡 Key Components
-
+## 💡 Key Components<br>
 - **User Interface**: Built with Java Swing to provide an intuitive and responsive design.
 - **Database Integration**: Utilizes MySQL to store and retrieve transaction data.
 - **Validation**: Ensures correct data input and provides feedback to users.
   
-## 🛠️ Getting Started
+## 🛠️ Getting Started<br>
 
 1. **Clone the Repository**:
-    - git clone https://github.com/yourusername/budget-tracker.git
-  
-2. **Set Up the Database**:
+   ```bash
+    - git clone https://github.com/fuad-rahman-biswas/budget-tracker.git
+     ```
+   
+3. **Set Up the Database**:
 
     - Import the provided SQL schema to create the necessary tables.
     - Update the database connection details in the budgettracker class.
   
-3. **Run the Application**:
+4. **Run the Application**:
     - Compile and run the budgettracker class to start the application.
 
 ## 📚 How to Contribute
-
 Feel free to fork the repository, make improvements, and submit pull requests. Contributions are welcome!
 
-## 📧 Contact
+## 📜 License<br>
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 📧 Contact<br>
 For any questions or suggestions, you can reach me at fuadrahman185@gmail.com.
 
